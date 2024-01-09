@@ -1,0 +1,422 @@
+*{
+    font-family: book antiqua;
+}
+
+body {
+    margin: 0;
+    background-color: #824619;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    width: 30%;
+}
+
+.show_password_eye{
+    background-color: #06060600;
+    /* border: 1px solid black; */
+    border: none;
+    width: 50px;
+    height: 50px;
+}
+
+.eye{
+    width: 60%;
+    padding: 5px 10px 5px 5px;
+}
+
+.backgroundasset{
+    position: relative;
+}
+
+.T1{
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 87.5vw solid transparent;
+    border-bottom: 0px solid transparent;
+    border-top: 177.5vh solid #f8f8f8;
+}
+
+.formtable{
+    width: 30%;
+    height: 80%;
+    border-radius: 4px;
+    line-height: 10px;
+    z-index: 9;
+    position: absolute;
+    background-color: #ffffff;
+    top: 10%;
+    left: 41%;
+    padding: 30px 0px 5px 180px;
+
+}
+
+h1{
+    padding: 30px 0px 5px 0px;
+    color: #060606;
+    font-family: poppins;
+}
+
+.inputname{
+    padding: 8px 0px 5px 0px; 
+    color: #06060695;
+    font-weight: 600;
+    font-family: campton;
+    line-height: 10px;
+    margin-top: 4px;
+}
+
+.btn{
+    padding: 10px 15px; 
+    background-color: #D26423;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: campton;
+    width: 30%;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn2{
+    padding: 10px 15px; 
+    border: 2px solid#D26423;
+    background-color: #ffffff;
+    color: #D26423;
+    font-weight: 600;
+    font-family: campton;
+    width: 30%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.btnbox{
+    padding-left: 8%;
+}
+
+input{
+    border: none;
+    outline: none;
+}
+
+.test{
+    border: 2px solid #06060630;
+    border-radius: 10px;
+    width: 70%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newsletter{
+    width: 30%;
+    height: 45vh;
+    border-radius: 4px;
+    line-height: 10px;
+    z-index: 9;
+    position: absolute;
+    background-color: #070707;
+    top: 30%;
+    left: 18%;
+}
+
+.map{
+    width: 30%;
+    height: 45vh;
+    border-radius: 4px;
+    line-height: 10px;
+    z-index: 9;
+    position: absolute;
+    background-color: #070707;
+    top: 30%;
+    left: 18%;
+}
+
+h2{
+    padding: 30px 0px 5px 90px;
+    color: #ffffff;
+    font-size: 2rem;
+    margin: 10px 0px 10px 0px;
+
+}
+
+.news{
+    color: #ffffff;
+    padding: 10px 50px 5px 90px;
+    font-size: 0.8rem;
+    line-height: 20px;
+    font-family: campton;
+    font-weight: 300;
+}
+
+.touch{
+    color: #ffffff;
+    padding: 10px 50px 5px 90px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: campton;
+}
+
+.socials{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3px;
+    padding: 10px 50px 5px 90px;
+}
+
+.imgs > img{
+    width: 40%;
+}
+input {
+    font-weight: 500;
+    font-family: campton;
+    color: #060606;
+    padding-left: 10px;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 70%;
+}
+
+/* .error{
+    border: 2px solid red !important;
+}
+
+.valid{
+    border: 2px solid green !important;
+} */
+
+h3{
+    font-family: campton;
+}
+
+b{
+    font-family: campton;
+    font-weight: 600;
+}
+
+.errortext {
+    font-weight: 400;
+    font-family: campton;
+    color: #ec1111;
+    font-size: 1rem;
+    line-height: 15px;
+
+}
+
+.ses{
+    padding: 8px 5px 5px 15px; 
+    margin: 0;
+}
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+    display:none;
+    background: #ffffff;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10%;
+    font-family: campton;  
+ 
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+    font-family: campton;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+    border: none;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+    border: none;
+
+  }
+  
+  /* Add a red text color and an "x" when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+  }
+
+
+@media only screen and (max-width: 1280px) {
+    .formtable{
+        padding: 15px 0px 5px 140px;
+    
+    }
+    
+    h1{
+        padding: 10px 0px 5px 0px;
+        color: #060606;
+    }
+
+    .socials{
+        gap: 3px;
+        padding: 10px 50px 5px 90px;
+    }
+    
+    .imgs > img{
+        width: 40%;
+    }
+
+    .news{
+        padding: 10px 50px 5px 50px;
+        font-size: 0.7rem;
+    }
+
+    h2{
+        padding: 30px 0px 5px 50px;
+        font-size: 2rem;
+        margin: 0;
+    
+    }
+
+    .touch{
+        padding: 10px 50px 2px 50px;
+        font-size: 1rem;
+    }
+
+    .socials{
+        gap: 3px;
+        padding: 5px 50px 2px 50px;
+    }
+    
+    .inputname{
+        margin-bottom: 0;
+        padding-bottom: 8px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .formtable{
+        padding: 15px 0px 5px 120px;
+    
+    }
+    
+    h1{
+        padding: 10px 0px 5px 0px;
+        color: #060606;
+    }
+
+    .socials{
+        gap: 3px;
+        padding: 5px 50px 5px 90px;
+    }
+    
+    .imgs > img{
+        width: 40%;
+    }
+
+    .news{
+        padding: 5px 50px 5px 50px;
+        font-size: 0.7rem;
+    }
+
+    h2{
+        padding: 30px 0px 5px 50px;
+        font-size: 2rem;
+        margin: 0;    
+    }
+
+    .touch{
+        padding: 10px 50px 2px 50px;
+        font-size: 1rem;
+    }
+
+    .socials{
+        gap: 3px;
+        padding: 5px 50px 2px 50px;
+    }
+    
+    .inputname{
+        margin-bottom: 0;
+        padding-bottom: 8px;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .formtable{
+        width: 50%;
+        height: 80%;
+        top: 10%;
+        left: 25%;
+        padding: 30px 0px 5px 30px;
+    
+    }
+    
+    h1{
+        padding: 10px 0px 30px 0px;
+        color: #060606;
+    }
+    
+    .inputname{
+        margin-bottom: 0;
+        padding-bottom: 8px;
+    }
+
+    .newsletter{
+        display: none;
+    }
+
+    .T1{
+        border-left: 0px solid transparent;
+        border-right: 85vw solid transparent;
+        border-bottom: 0px solid transparent;
+        border-top: 135vh solid #f8f8f8;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .formtable{
+        width: 80%;
+        height: 80%;
+        top: 10%;
+        left: 5%;
+        padding: 30px 0px 5px 30px;
+    
+    }
+    
+    h1{
+        padding: 10px 0px 30px 0px;
+        color: #060606;
+    }
+    
+    .inputname{
+        margin-bottom: 0;
+        padding-bottom: 8px;
+    }
+
+    .newsletter{
+        display: none;
+    }
+
+    .T1{
+        border-left: 0px solid transparent;
+        border-right: 105vw solid transparent;
+        border-bottom: 0px solid transparent;
+        border-top: 100vh solid #f8f8f8;
+    }
+}
