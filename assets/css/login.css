@@ -310,6 +310,12 @@ b{
     }
 }
 
+@media only screen and (max-width: 1454px) {
+    .map{
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
     .formtable{
         padding: 15px 0px 5px 120px;
@@ -333,6 +339,10 @@ b{
     .news{
         padding: 5px 50px 5px 50px;
         font-size: 0.7rem;
+    }
+
+    .map{
+        display: none;
     }
 
     h2{
@@ -381,6 +391,10 @@ b{
         display: none;
     }
 
+    .map{
+        display: none;
+    }
+
     .T1{
         border-left: 0px solid transparent;
         border-right: 85vw solid transparent;
@@ -410,6 +424,10 @@ b{
     }
 
     .newsletter{
+        display: none;
+    }
+
+    .map{
         display: none;
     }
 
